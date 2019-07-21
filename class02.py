@@ -26,7 +26,7 @@ d = 12
 # 2.3
 # create 2 variables with 1 holding your first name and 1 holding your last name
 # add them together with a space so it prints nicely
-# ex. print("Ben" + " " + "Campbell") -> "Ben Campbell"
+# ex. print("John" + " " + "Melon") -> "John Melon"
 
 
 

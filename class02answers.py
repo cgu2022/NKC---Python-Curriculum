@@ -26,11 +26,11 @@ print(a * b * c / d)
 # 2.3
 # create 2 variables with 1 holding your first name and 1 holding your last name
 # add them together with a space so it prints nicely
-# ex. print("Ben" + " " + "Campbell") -> "Ben Campbell"
+# ex. print("John" + " " + "Melon") -> "John Melon"
 
 
-first_name = "Ben"
-last_name = "Campbell"
+first_name = "John"
+last_name = "Melon"
 
 print(first_name + " " + last_name)
 
@@ -68,7 +68,7 @@ print(equation)
 # 2.7
 # Create string, int, double, and boolean variables. Then print them all out.
 
-name = "Ben Campbell"
+name = "John Melon"
 cool_number = 4
 cool_fraction = 0.75
 boolean_var = True
