@@ -2,8 +2,9 @@
 # 2.1
 # change what is stored in the variables to another types of data
 # if a variable stores a string, change it to an int, or a boolean, or a float
+# via Casting
 
-some_var = "hi"
+some_var = "23"
 some_var2 = 1
 some_var3 = True
 some_var4 = 1.32
@@ -51,7 +52,7 @@ d = 12
 
 #######################################################################################
 # 2.7
-# Create string, int, double, and boolean variables. Then print them all out.
+# Create string, int, float, and boolean variables. Then print them all out.
 
 
 

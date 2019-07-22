@@ -1,6 +1,6 @@
 #######################################################################################
 # 5.1
-# Make an infinite loop.
+# Make an infinite loop. (But DON'T RUN IT)
 
 
 while True:
