@@ -134,3 +134,24 @@ num1 = input()
 num2 = input()
 
 print(num1 + num2)
+
+#######################################################################################
+# 3.15
+# Import the random library (you only have to do it once!) and print out a random
+# number from 1 to 100
+
+import random
+rand = random.randint(1, 100)
+print(rand)
+
+#######################################################################################
+# 3.16 
+# Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
+# variable to 0.
+
+randomDecimal = random.random()
+if randomDecimal < 0.5:
+    randomDecimal = 0
+print(randomDecimal)
+
+#######################################################################################
