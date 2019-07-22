@@ -99,3 +99,15 @@ else:
 # 3.14
 # use the input function to get 2 numbers stored in 2 variables
 # print the sum of them
+
+#######################################################################################
+# 3.15
+# Import the random library (you only have to do it once!) and print out a random
+# number from 1 to 100
+
+#######################################################################################
+# 3.16 
+# Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
+# variable to 0.
+
+#######################################################################################
