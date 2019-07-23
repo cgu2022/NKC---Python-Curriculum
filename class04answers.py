@@ -73,6 +73,31 @@ if(grade!=-1):
         print('')
     else:
         print('-')
+
+#######################################################################################
+# 4.3.5
+# You are going to make a Magic 8 ball. You ask it a question, and it gives you an answer
+# Write a program that takes in a question, and replies with an answer.
+# You must have at least 5 responses, generated randomly (hint: use the random function)
+
+#ex: User: Should I listen to the lecture or no?
+#    Output: Yes
+
+import random
+
+x = input("Enter Question: ")
+number = random.randint(1,5)
+if(number == 1):
+  print("Yes")
+if(number == 2):
+  print("No")
+if(number == 3):
+  print("Maybe")
+if(number == 4):
+  print("IDK")
+if(number == 5):
+  print("IDC")
+
    
 #######################################################################################
 # 4.4

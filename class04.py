@@ -23,6 +23,15 @@ thing = "whatever you want"
 # for our purposes, round it up.
 
 #######################################################################################
+# 4.3.5
+# You are going to make a Magic 8 ball. You ask it a question, and it gives you an answer
+# Write a program that takes in a question, and replies with an answer.
+# You must have at least 5 responses, generated randomly (hint: use the random function)
+
+#ex: User: Should I listen to the lecture or no?
+#    Output: Yes
+
+#######################################################################################
 # 4.4
 
 # A straight in poker(a card game) is defined when 5 cards are aligned consecutively in 
