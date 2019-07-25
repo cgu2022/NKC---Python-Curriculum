@@ -39,6 +39,7 @@ drone.emergency_stop()
 #######################################################################################
 # D1.1B
 # If the drone is upside down, flash some lights and print something to tell us
+# Else, stop the lights
 
 if drone.is_upside_down():
     drone.arm_strobe()

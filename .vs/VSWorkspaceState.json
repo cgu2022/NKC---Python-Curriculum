@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\misc"
+    "\\drone_stuff",
+    "\\misc",
+    "\\turtle_examples"
   ],
-  "SelectedNode": "\\class02.py",
+  "SelectedNode": "\\drone_stuff\\drones1answers.py",
   "PreviewInSolutionExplorer": false
 }
