@@ -15,7 +15,7 @@ while number != -1:
 # and breaks when the total reaches a multiple of 9.
 
 total = 0
-while total !> 9:
+while total < 9:
   total = total + 3
   print("The current total is " + str(total))
 
@@ -24,16 +24,16 @@ while total !> 9:
 # The outside while loop should iterate 4 times.
 # The inside loop should iterate 10 times.
 # The outside loop should use the variable x and the inside loop should use the variable y. 
-# Print out the values of x and y for each iteration of the inside LookupError
+# Print out the values of x and y for each iteration of the inside
 
 i = 0
 j = 0
-while i < 4
-  while j < 10
+while i < 4:
+  while j < 10:
     print(i)
     print(j)
-    j++
-   i++
+    j += 1
+i += 1
   
 ##################################################################################
 # 6.2.4 Create a program which prints out the following output.
@@ -49,9 +49,9 @@ x = 5
 while x != 0:
   y = 1
   while y != x + 1:
-    print(str(y) + " ")
-    y++
-  print("\n")
+    print(str(y) , end=' ')
+    y += 1
+  print("")
   x = x - 1
   
 # 6.2.5 Make a while loop that creates this pattern:
@@ -67,8 +67,8 @@ while x != 6:
   y = 0
   while y != x:
     print("*")
-    y++ 
-  x++
+    y+=1 
+  x+=1
 
 ##################################################################################
 # Enter 7 temperatures from the keyboard – each on representing a
@@ -76,10 +76,10 @@ while x != 6:
 # temperature for the week. 
 
 i = 0
-while i != 7
+while i != 7:
   temperature = input("Write a new temperature from the week ")
   total = total + temperature
-  i++
+  i+=1
 average = total // 7
 print("The average temperature of the week is " + average)
 
@@ -109,7 +109,7 @@ while guesses < maxGuess and count == False:
     count = True
   else:
     print("Too low!")
-  guesses++
+  guesses+=1
 
 
 ##################################################################################
