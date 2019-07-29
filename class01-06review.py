@@ -26,6 +26,6 @@
 
 #######################################################################################
 # 6 - Length Function
-# Find the length of the string "Hello" and print out that number.
+# Find the length of "Hello" and print out that number.
 
 
