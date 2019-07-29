@@ -10,7 +10,7 @@
 # 3 - Conditional Statements
 # Create a variable called num, and set it equal to 6.
 # Write an if-else statement that prints either "This number is greater than 5" or 
-"This number is less than or equal to 5."
+# "This number is less than or equal to 5."
 
 #######################################################################################
 # 4 - Input Function and Conditional Statements
