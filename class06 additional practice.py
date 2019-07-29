@@ -19,7 +19,7 @@
 # The outside while loop should iterate 4 times.
 # The inside loop should iterate 10 times.
 # The outside loop should use the variable x and the inside loop should use the variable y. 
-# Print out the values of x and y for each iteration of the inside LookupError
+# Print out the values of x and y for each iteration of the inside
 #
 #
 #
