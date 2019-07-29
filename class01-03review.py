@@ -22,7 +22,7 @@
 
 #######################################################################################
 # 5 - While Loop
-Create a counter variable. Make a while loop which prints out the numbers 0 through 4. 
+# Create a counter variable. Make a while loop which prints out the numbers 0 through 4. 
 
 #######################################################################################
 # 6 - Length Function
