@@ -1,6 +1,7 @@
 # Link to library documentation: http://dev-support.robolink.com/
 # Helpful link on python tutorials:
 # https://basecamp.robolink.com/cwists/category#products=%5B2%5D&selected_sort_by=alphabetical
+# Remember to do all coding on Juypter Notebook!
 
 import CoDrone #to prevent errors
 
