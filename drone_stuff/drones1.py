@@ -12,7 +12,7 @@ import CoDrone #to prevent errors
 # Import the library
 '''
 import CoDrone
-from CoDrone import Color, Mode
+from CoDrone import Color, Mode, Direction
 '''
 
 # Imports the library, creates the drone object, pairs the BLE to the drone
