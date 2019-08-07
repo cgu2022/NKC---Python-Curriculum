@@ -33,7 +33,7 @@ drone.move(1.5, 0, 0, 0, 0) #sleep(1.5)
 drone.land()
 '''
 
-# Emergancy stop:
+# Emergency stop:
 '''
 drone.emergency_stop()
 '''
