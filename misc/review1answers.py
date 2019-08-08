@@ -15,7 +15,7 @@ print(c + f + b + f + d + f + a + f + e)
 #######################################################################################
 # r1.2
 # Take both variables and use the if statements to print the result. Fill in the missing
-# information.
+# information. Do not remove any code.
 # Result: "hi"
 
 var1 = "dog"
