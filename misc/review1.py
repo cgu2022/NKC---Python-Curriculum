@@ -12,10 +12,11 @@ f = " "
 
 #######################################################################################
 # r1.2
-# Take both variables and use the if statements to print the result. Fill in the missing
+# Uncomment the code. Then, take both variables and use the if statements to print the result. Fill in the missing
 # information. Do not remove any code.
 # Result: "hi"
 
+'''
 var1 = "dog"
 var2 = 2
 
@@ -26,7 +27,7 @@ elif
 else:
     print("hi")
 
-
+'''
 
 #######################################################################################
 # r1.3
