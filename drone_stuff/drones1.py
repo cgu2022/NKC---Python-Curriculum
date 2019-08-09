@@ -9,15 +9,10 @@ import CoDrone #to prevent errors
 # D1.1A
 # Make absolute sure you have the following codes in seperate cells:
 
-# Import the library
-'''
-import CoDrone
-from CoDrone import Color, Mode, Direction
-'''
-
 # Imports the library, creates the drone object, pairs the BLE to the drone
 '''
 import CoDrone
+from CoDrone import Color, Mode, Direction
 print("Creating drone object")
 drone = CoDrone.CoDrone()
 print("Getting ready to pair")
