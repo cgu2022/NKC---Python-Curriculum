@@ -30,6 +30,7 @@ print(10 >= 15)
 print(5 == 2)
 print(4 != 4)
 
+# Stop here
 
 #######################################################################################
 # 3.5
@@ -47,6 +48,8 @@ print((5 > 7) or (4 > 7)) # false
 
 print(not (1 > 2)) # true
 print(not (4 > 3)) # false
+
+# Stop Here
 
 #######################################################################################
 # 3.6
@@ -70,7 +73,7 @@ if var:
 #######################################################################################
 # 3.8
 # create a variable which holds False
-# make the if statement print something
+# make the if statement print something using that variable
 
 var = False
 if not var:
@@ -89,14 +92,15 @@ if True:
     print("this will also always print")
 
 
+# Stop Here
+
 #######################################################################################
 # 3.10
-# create a variable holding a positive or negative int
-# make 3 if statements to check if the int stored in the variable is positive or negative
-# zero is neither positive nor negative
-# print out either "positive", "negative", or "neither"
+# Ask the user for a number.
+# Then, print out either "positive", "negative", or "neither"
+# if the number is +, -, or 0
 
-num = 1
+num = input("Enter Number:")
 
 if num > 0:
     print("positive")
@@ -110,7 +114,7 @@ if num == 0:
 # modify your code from 3.10 to use elif and else statements
 
 
-num = 1
+num = input("Enter Number:")
 
 if num > 0:
     print("positive")
@@ -134,6 +138,9 @@ num1 = input()
 num2 = input()
 
 print(num1 + num2)
+
+
+# Wait here
 
 #######################################################################################
 # 3.15

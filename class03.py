@@ -43,7 +43,7 @@
 #######################################################################################
 # 3.8
 # create a variable which holds False
-# make the if statement print something
+# make the if statement print something using that variable
 
 
 #######################################################################################
@@ -53,10 +53,9 @@
 
 #######################################################################################
 # 3.10
-# create a variable holding a positive or negative int
-# make 3 if statements to check if the int stored in the variable is positive or negative
-# zero is neither positive nor negative
-# print out either "positive", "negative", or "neither"
+# Ask the user for a number.
+# Then, print out either "positive", "negative", or "neither"
+# if the number is +, -, or 0
 
 
 #######################################################################################

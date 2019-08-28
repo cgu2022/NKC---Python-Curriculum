@@ -21,6 +21,9 @@ print("this is a print statement")
 some_var = "something"
 print(some_var)
 
+
+# Wait here
+
 #######################################################################################
 # 1.4
 # store what is held in the variable var1 into the variable var2
@@ -36,7 +39,7 @@ print(var2)
 # 1.5
 # create a string variable holding your name
 
-my_name = "Ben Campbell"
+my_name = "Johny Biden"
 
 
 #######################################################################################
@@ -62,7 +65,7 @@ print(a + b + c)
 
 #######################################################################################
 # 1.8
-# take a variable holding a boolean and change it to the other condition
+# make a variable holding a boolean and change it to the other condition
 # ex. True -> False, False -> True
 
 boolean_var = True
@@ -82,6 +85,8 @@ print(var1 + var2)
 print(var1 - var2)
 print(var1 * var2)
 print(var1 / var2)
+
+# Wait Here
 
 #######################################################################################
 # 1.11

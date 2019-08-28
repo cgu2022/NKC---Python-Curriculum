@@ -1,6 +1,6 @@
 #######################################################################################
 # 4.1
-# Write a program that uses a string variable and then prompts the user for a string. 
+# Write a program that uses the string variable below and then prompts the user for a string. 
 # If the strings match, print true. If not, print false. Then, do the same with a number. 
 
 thing = "Hello"

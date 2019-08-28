@@ -14,6 +14,8 @@
 
 
 
+# Wait here
+
 #######################################################################################
 # 1.4
 # store what is held in the variable var1 into the variable var2
@@ -44,7 +46,7 @@ print()
 
 #######################################################################################
 # 1.8
-# take a variable holding a boolean and change it to the other condition
+# make a variable holding a boolean and change it to the other condition
 # ex. True -> False, False -> True
 
 boolean_var = True
@@ -63,6 +65,9 @@ boolean_var2 = False
 #######################################################################################
 # 1.10
 # make two variables and make a print statement doing (+, -, *, /)
+
+
+# Wait Here
 
 #######################################################################################
 # 1.11
