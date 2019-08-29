@@ -40,6 +40,8 @@ while counter > 0:
     counter -= 3
 
 
+ # STOP HERE
+
 #######################################################################################
 # 5.5
 # Use the input function to continually ask the user for a number and add that number
@@ -55,21 +57,6 @@ while not inp == -1:
 
 #######################################################################################
 # 5.6
-# Make a while loop with a counter variable. If the counter variable equals 100 break
-# out of the loop. Use the break statement for this.
-
-
-counter = 0
-while counter < 1000:
-    if counter == 100:
-        print("exited")
-        break
-    print(counter)
-    counter += 1
-
-
-#######################################################################################
-# 5.7
 # Make a while loop which has 3 variables and changes each one at a different rate. Stop
 # the while loop when a variable gets to 100.
 
@@ -83,8 +70,10 @@ while a < 100 and b < 100 and c < 100:
     b += 2
     c += 3
 
+ # STOP HERE
+
 #######################################################################################
-# 5.8
+# 5.7
 # Make a while loop within a while loop (Nested While Loop). In the outer while loop count up to 10 from 1
 # and in the inner loop count up to 3 from 1. Make sure to always reset the 2nd counter
 # for each iteration of the first while loop
@@ -99,12 +88,24 @@ while counter1 <= 10:
     counter1 += 1
 
 #######################################################################################
+# 5.8
+# Make a while loop with a counter variable. If the counter variable equals 100 break
+# out of the loop. Use the break statement for this.
+
+
+counter = 0
+while counter < 1000:
+    if counter == 100:
+        print("exited")
+        break
+    print(counter)
+    counter += 1
+
+
+#######################################################################################
 # 5.9
+# Make a string and use the length function to print out the length of the string
 
 string = "this is a cool string"
 length = len(string)
-i = 0
-while i < length:
-    print(string[i:i+1])
-    i += 1
-
+print(length)

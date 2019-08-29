@@ -3,12 +3,14 @@
 # Make an infinite loop. (But DON'T RUN IT)
 
 
+
 #STOP HERE
 
 #######################################################################################
 # 5.2
 # Make a while loop which prints out the numbers 0 through 10. Here you will need to
 # create a counter variable.
+
 
 #######################################################################################
 # 5.3
@@ -21,6 +23,8 @@
 # the count each loop. Start the countdown at 100.
 
 
+ # STOP HERE
+
 #######################################################################################
 # 5.5
 # Use the input function to continually ask the user for a number and add that number
@@ -28,26 +32,30 @@
 # -1 the loop stops.
 
 
-
 #######################################################################################
 # 5.6
-# Make a while loop with a counter variable. If the counter variable equals 100 break
-# out of the loop. Use the break statement for this.
-
-
-
-#######################################################################################
-# 5.7
 # Make a while loop which has 3 variables and changes each one at a different rate. Stop
 # the while loop when a variable gets to 100.
 
+a = 0
+b = 0
+c = 0
+
+ # STOP HERE
+
 #######################################################################################
-# 5.8
+# 5.7
 # Make a while loop within a while loop (Nested While Loop). In the outer while loop count up to 10 from 1
 # and in the inner loop count up to 3 from 1. Make sure to always reset the 2nd counter
 # for each iteration of the first while loop
 
 
 #######################################################################################
+# 5.8
+# Make a while loop that goes from 0 to 1000. If the counter variable equals 100, break
+# out of the loop. Use the break statement for this.
+
+
+#######################################################################################
 # 5.9
-# Make a string and use the length function to print out each character in the string.
+# Make a string and use the length function to print out the length of the string
