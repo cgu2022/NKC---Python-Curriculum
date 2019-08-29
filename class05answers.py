@@ -6,6 +6,9 @@
 while True:
     print("infinite")
 
+
+#STOP HERE
+
 #######################################################################################
 # 5.2
 # Make a while loop which prints out the numbers 0 through 10. Here you will need to
@@ -82,8 +85,9 @@ while a < 100 and b < 100 and c < 100:
 
 #######################################################################################
 # 5.8
-# Make a while loop within a while loop. In the outer while loop count up to 10 from 1
-# and in the inner loop count up to 3 from 1.
+# Make a while loop within a while loop (Nested While Loop). In the outer while loop count up to 10 from 1
+# and in the inner loop count up to 3 from 1. Make sure to always reset the 2nd counter
+# for each iteration of the first while loop
 
 counter1 = 1
 counter2 = 1
@@ -93,6 +97,7 @@ while counter1 <= 10:
         counter2 += 1
     counter2 = 1
     counter1 += 1
+
 #######################################################################################
 # 5.9
 
