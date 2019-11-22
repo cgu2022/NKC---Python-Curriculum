@@ -41,21 +41,21 @@ printBoard()
 # The loop keeps running while we haven't won or tied.
 while not checkWin() and not checkTie():
     # user input
-    a=input("Player "+str(player+1)+": (x-coordinate,y-coordinate) ")
-    a=str(a)
+    x=int(input("Player "+ str(player+1) +" x-coord: "))
+    y=int(input("Player "+ str(player+1) +" y-coord: "))
     # We check to make sure that the user input is valid.
-    if(int(a[4])>3 or int(a[4]<0) or int(a[1])>3 or int(a[1])<0):
+    if(y>3 or y<0 or x>3 or x<0):
         print("Illegal move!")
         # This will alternate the players.
         # The players will be alternated again later, so the same player will go again if there is an illegal move.
         player=(player+1)%2
-    elif (board[int(a[4])-1][int(a[1])-1])=='_':
+    elif (board[y-1][x-1])=='_':
         # player 1 is 'o'
         if player==0:
-            board[int(a[4])-1][int(a[1])-1]='o'
-        # player 2 is 'x'
+            board[y-1][x-1]='o'
+        # player 2 is 'y'
         if player==1:
-            board[int(a[4])-1][int(a[1])-1]='x'
+            board[y-1][x-1]='y'
     else:
         print("Illegal move!")
         # The players will be alternated again later, so the same player will go again if there is an illegal move.
