@@ -68,5 +68,5 @@ while not checkWin() and not checkTie():
 if checkTie():
     print("Tie!")
 else:
-    # The player who last played won.
+    # The player who last played won, so we alternate the players again.
     print("Player "+str((player+1)%2+1)+" wins!")
