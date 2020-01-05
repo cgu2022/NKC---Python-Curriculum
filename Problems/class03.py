@@ -18,6 +18,9 @@
 # 3.4
 # make inequalities which all evaluate to False using <=, >=, ==, !=
 
+
+# Stop here
+
 #######################################################################################
 # 3.5
 # use and, or, not to combine inequalities using ()
@@ -27,10 +30,13 @@
 # try to use a variety of >=, ==, !=, <=, <, >
 
 
+# Stop Here
+
 #######################################################################################
 # 3.6
 # create a variable which holds True
 # use an if statement with the variable to print something
+
 
 
 #######################################################################################
@@ -39,11 +45,11 @@
 # use an if statement and see if anything prints
 
 
-
 #######################################################################################
 # 3.8
 # create a variable which holds False
 # make the if statement print something using that variable
+
 
 
 #######################################################################################
@@ -51,62 +57,50 @@
 # create an if statement with a condition which will always be true and print something
 
 
+# Stop Here
+
 #######################################################################################
 # 3.10
-# Ask the user for a number.
-# Then, print out either "positive", "negative", or "neither"
-# if the number is +, -, or 0
+# use the input function to store a number in a variable
 
 
 #######################################################################################
 # 3.11
-# modify your code from 3.10 to use elif and else statements
+# Ask the user for a number. (This also means take in an input.)
+# Then, print out either "positive", "negative", or "neither"
+# if the number is +, -, or 0
+
+# Hint: Here's how to take in an input:
+# v1 = input()
+# And then don't forget casting!
 
 
 
 #######################################################################################
 # 3.12
-# here is just an example showing why you would use an if block instead of just ifs
-# an if block executes on the first true case and then breaks out
-
-num = 10
-
-if num == 10:
-    print("num is 10")
-if num > 0:
-    print("num is positive")
-if num > 5:
-    print("num is greater than 10")
+# modify your code from 3.11 to use elif and else statements
 
 
-if num > 0:
-    print("num is positive")
-elif num == 10:
-    print("num is 10")
-else:
-    print("something else")
-
-# the if block above will print only "num is positive" instead of the 3 statements
 
 
 #######################################################################################
 # 3.13
-# use the input function to store a number in a variable
-
-
-#######################################################################################
-# 3.14
 # use the input function to get 2 numbers stored in 2 variables
 # print the sum of them
 
+
+# Wait here
+
 #######################################################################################
-# 3.15
+# 3.14
 # Import the random library (you only have to do it once!) and print out a random
 # number from 1 to 100
 
+
+
 #######################################################################################
-# 3.16 
+# 3.15 
 # Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
 # variable to 0.
 
-#######################################################################################
+

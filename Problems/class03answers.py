@@ -80,7 +80,6 @@ if not var:
     print("not var(false) is true so this prints")
 
 
-
 #######################################################################################
 # 3.9
 # create an if statement with a condition which will always be true and print something
@@ -96,11 +95,21 @@ if True:
 
 #######################################################################################
 # 3.10
-# Ask the user for a number.
+# use the input function to store a number in a variable
+
+num = int(input())
+
+#######################################################################################
+# 3.11
+# Ask the user for a number. (This also means take in an input.)
 # Then, print out either "positive", "negative", or "neither"
 # if the number is +, -, or 0
 
-num = input("Enter Number:")
+# Hint: Here's how to take in an input:
+# v1 = input()
+# And then don't forget casting!
+
+num = int(input("Enter Number:"))
 
 if num > 0:
     print("positive")
@@ -110,11 +119,10 @@ if num == 0:
     print("neither")
 
 #######################################################################################
-# 3.11
-# modify your code from 3.10 to use elif and else statements
+# 3.12
+# modify your code from 3.11 to use elif and else statements
 
-
-num = input("Enter Number:")
+num = int(input("Enter Number:"))
 
 if num > 0:
     print("positive")
@@ -123,19 +131,15 @@ elif num < 0:
 else:
     print("neither")
 
+
+
 #######################################################################################
 # 3.13
-# use the input function to store a number in a variable
-
-num = input()
-
-#######################################################################################
-# 3.14
 # use the input function to get 2 numbers stored in 2 variables
 # print the sum of them
 
-num1 = input()
-num2 = input()
+num1 = int(input())
+num2 = int(input())
 
 print(num1 + num2)
 
@@ -143,7 +147,7 @@ print(num1 + num2)
 # Wait here
 
 #######################################################################################
-# 3.15
+# 3.14
 # Import the random library (you only have to do it once!) and print out a random
 # number from 1 to 100
 
@@ -152,7 +156,7 @@ rand = random.randint(1, 100)
 print(rand)
 
 #######################################################################################
-# 3.16 
+# 3.15 
 # Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
 # variable to 0.
 
@@ -161,4 +165,3 @@ if randomDecimal < 0.5:
     randomDecimal = 0
 print(randomDecimal)
 
-#######################################################################################

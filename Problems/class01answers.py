@@ -55,7 +55,9 @@ print(string_added)
 #######################################################################################
 # 1.7
 # 3 variables a, b, c
-# if a holds a 1, b holds 2, and c holds 3, get the sum of the variables and print it
+# a holds 1, b holds 2, and c holds 3, get the sum of the variables and print it
+
+print()
 
 a = 1
 b = 2

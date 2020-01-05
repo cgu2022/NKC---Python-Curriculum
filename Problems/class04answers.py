@@ -1,19 +1,30 @@
+'''
+These are a set of mini-projects!
+'''
+
+#IMPORTANT:
+# Remember: use int() to convert a string into an integer
+# and use float() to convert a string with a decimal
+
 #######################################################################################
 # 4.1
 # Write a program that uses the string variable below and then prompts the user for a string. 
 # If the strings match, print true. If not, print false. Then, do the same with a number. 
 
 thing = "Hello"
+
+# Step 1: Take in an input
+# Remeber: It's as simple as defining a variable and making it equal to input().
+# For example: v1 = input()
+
 n2 = input()
+
+# Step 2: Make your if/else statements. First identify when to print "True" and when to print "False". This will be your if statement's condition.
+# Then translate it into code.
+
 if n2==thing:
     print("True")
 else: 
-    print("False")
-thing2 = 21
-n = int(input())
-if(n==thing2):
-    print("True")
-else:
     print("False")
 
 #######################################################################################
@@ -39,7 +50,7 @@ elif(n3 >= n2 and n3>=n1):
 # 4.3
 # Write a program that takes in a grade and calculates if it is A, B, C, D, or F
 # Extra: Added plus and minuses. Fs do not need + or -.
-# This program will support decimals.
+# Extra2: This program will support decimals.
 # Use round() to round the number. Although the function will round 1.5 down, 
 # for our purposes, round it up.
 
@@ -80,13 +91,15 @@ if(grade!=-1):
 # Write a program that takes in a question, and replies with an answer.
 # You must have at least 5 responses, generated randomly (hint: use the random function)
 
-#ex: User: Should I listen to the lecture or no?
+# ex: User: Should I listen to the lecture or no?
 #    Output: Yes
 
 import random
 
 x = input("Enter Question: ")
-number = random.randint(1,5)
+number = random.randint(1,5) # number will equal a random number between 1-5
+
+
 if(number == 1):
   print("Yes")
 if(number == 2):
@@ -101,13 +114,14 @@ if(number == 5):
    
 #######################################################################################
 # 4.4
-# A straight in poker(a card game) is defined when 5 cards are aligned consecutively in 
+# A straight in poker (a card game) is defined when 5 cards are aligned consecutively in 
 # ascending order (0, 1, 2, 3, 4) but not (8, 9, 10, 0, 1), nor (0, 2, 1, 3, 4).
-# Cards are from 0-10, and a J is 11.
+# Cards are from 0-10
 
 # Write a program prompts the user for 5 numbers, and then determines if they are a 
 # straight. You do not need to make sure the number stays within bounds.
 
+# Bonus: if the user enters "J" for a card, it means 11
 
 s1 = input("Enter card:")
 s2 = input("Enter card:")
@@ -165,69 +179,3 @@ if(op==2):
     print(n1*n2)
 if(op==3):
     print(n1/n2)
-
-#######################################################################################
-# 4.6
-# Triangles have exactly three sides. If a triangle has three equal sides it is called 
-# an equilateral triangle. If a triangle has exactly two equal sides it is called an 
-# isosceles triangle. If a triangle has three unequal sides it is called a scalene triangle.
-# The sides of a triangle must have a certain relationship to one another in order for 
-# them to form a valid triangle. The relationship is that the sum of any two sides must 
-# be strictly greater than the third side. Sides must be a whole number.
-
-# Write a program that prompts the user to enter some integer values for the 3 sides 
-# of a triangle and then displays the values and the type of triangle they represent.
-# If the user enters values that do not make a valid triangle, or if any values are not 
-# greater than zero, then the program will invalidate that triangle by saying: 
-# “This isn’t a real triangle!”  
-
-#gathering user input
-print("Enter a side 1:")
-s1 = int(input())
-print("Enter a side 2:")
-s2 = int(input())
-print("Enter a side 3:")
-s3 = int(input())
-
-#decision-making
-if s1+s2<s3 or s1+s3<s2 or s2+s3<s1 or s1<=0 or s2<=0 or s3<=0:
-    print("This isn't a real triangle!")
-elif s1==s2 and s2==s3 :
-    print("This is an equilateral triangle!")
-elif (s1==s2 and s2!=s3) or (s1!=s2 and s2==s3):
-    print("This is a isoceles triangle!")
-else:
-    print("This is a scalene triangle")
-
-#######################################################################################
-# 4.7
-# Write a program to solve quadratic equations (use if, else if and else).
-# Essentially, ask the user for a, b, and c
-# If there are no real solutions, just say "No Real Solutions!"
-# And remember, to determine if the solutions are real, just make sure the discriminate 
-# (b^2 - 4*a*c) is greater than or equal to zero. 
-# useful math functions:
-# math.pow - get powers of numbers - ex: math.pow(2, 3) = 8
-# math.sqrt - get square root of number - ex: math.sqrt(4) = 2
-
-import math
-
-print("Enter a:")
-a = float(input())
-print("Enter b:")
-b = float(input())
-print("Enter c:")
-c = float(input())
-
-result = math.pow(b, 2) - 4 * a * c
-
-if result > 0:
-    r1 = (-b + math.sqrt(result)) / (2 * a)
-    r2 = (-b - math.sqrt(result)) / (2 * a)
-    print("The roots are ", r1 , " and " , r2)
-elif result == 0:
-    r1 = -b / (2 * a)
-    print ("The root is ", r1)
-else:
-    print("The equation has no real roots.")
-

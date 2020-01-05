@@ -1,8 +1,6 @@
 #######################################################################################
 # 2.1
 # change what is stored in the variables to another types of data
-# if a variable stores a string, change it to an int, or a boolean, or a float
-# via Casting
 
 some_var = "23"
 some_var2 = 1
