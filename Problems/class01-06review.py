@@ -24,5 +24,7 @@
 # 5 - While Loop
 # Create a counter variable. Make a while loop which prints out the numbers 0 through 25. 
 
-
+#######################################################################################
+# 6 - Length Function
+# Find the length of "Hello" and print out that number.
 
