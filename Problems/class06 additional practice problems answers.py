@@ -96,6 +96,8 @@ maximum number of guesses. The program shall also allow the user to play the gam
 until the user declines.
 '''
 
+import random
+
 n = input("What number would you like as the maximum? ")
 secretN = random.randint(1, n)
 maxGuess = input("How many guesses would you like to be made at most? ")
