@@ -106,4 +106,4 @@ while counter < 11:
 # Result 1, 2, "hi", 3, 4, 5, "hi", 6, 7, 8, "hi"
 
 last_num = 0
-for i in range(1, 100):
+#for i in range(1, 100):
