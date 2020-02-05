@@ -72,11 +72,13 @@ print(d)
 # 1.9
 # Print out 2 different variables on the same line!
 
-
+a = 1
+b = 2
+print(a, b)
 
 #######################################################################################
 # 1.10
 # You are currently reading a comment! Comment out the following code using # 
 # It will no longer run as code!
 
-var123 = 10
+# var123 = 10
