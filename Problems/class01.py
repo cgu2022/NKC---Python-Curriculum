@@ -1,80 +1,70 @@
 #######################################################################################
 # 1.1
-# make 1 variable storing a string, another storing an int and another storing a boolean
+# Make 1 variable storing a string, another storing an integer, and another storing a boolean.
 
 
 #######################################################################################
 # 1.2
-# use a print statement to print something (number or string) to the console
+# Create a string variable that holds your name!
 
 
 #######################################################################################
 # 1.3
-# use a print statement to print what is stored in a variable to the console
+# Make 2 boolean variables that are not equal to each other.
 
-
-
-# Wait here
 
 #######################################################################################
 # 1.4
-# store what is held in the variable var1 into the variable var2
-# print what is stored in each to show your results
-
-
-
-#######################################################################################
-# 1.5
-# create a string variable holding your name
-
-
-#######################################################################################
-# 1.6
-# if you have 2 strings and one stores "dog" and the other stores "cat", add them together
-# store them added together into a new variable and print that variable
+# Below, we have 2 strings: one stores "dog" and the other stores "cat". First, 
+# concatenate them together and store the result in a new variable.
 
 string1 = "dog"
 string2 = "cat"
 
 
+# WAIT HERE
+
+#######################################################################################
+# 1.5
+# Use a print statement to print something (number or string) to the console!
+
+
+
+#######################################################################################
+# 1.6
+# Use a print statement to print the variable print_this to the console.
+
+print_this = "Success! You printed a variable!"
+
+
+# Wait here
+
 #######################################################################################
 # 1.7
-# 3 variables a, b, c
-# a holds 1, b holds 2, and c holds 3, get the sum of the variables and print it
+# Store what is held in the variable var1 in a new variable called var2
+# Then, print out both variables to prove that they are equal.
 
-print()
+var1 = 5
+
 
 #######################################################################################
 # 1.8
-# make a variable holding a boolean and change it to the other condition
-# ex. True -> False, False -> True
+# Print out the sum of a, b, and c!
 
-boolean_var = True
-boolean_var2 = False
+a = 1
+b = 2
+c = 3
 
 
 #######################################################################################
 # 1.9
-# after every problem it still prints out the answers after you have moved on
-# use comments (#) to comment out the code and see what happens
-# comments need to be placed in front of the code
-# ex. commenting out the variable var123 = 10 would look like below:
+# Print out 2 different variables on the same line!
 
-# var123 = 10
+
 
 #######################################################################################
 # 1.10
-# make two variables and make a print statement doing (+, -, *, /)
+# You are currently reading a comment! Comment out the following code using # 
+# It will no longer run as code!
 
-
-# Wait Here
-
-#######################################################################################
-# 1.11
-# make two int variables and cast them to string variables. add them together.
-
-#######################################################################################
-# 1.12
-# do division with two int variables which don't evenly divide into each other. cast the
-# answer to an int and print the int.
-
+var123 = 10
