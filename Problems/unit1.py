@@ -26,7 +26,7 @@ string2 = "cat"
 
 #######################################################################################
 # 1.5
-# Use a print statement to print something (number or string) to the console!
+# Use a print statement to print whatever you want to the console!
 
 
 
