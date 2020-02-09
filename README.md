@@ -2,5 +2,10 @@
 
 ### `By Chris Gu`
 
-This github was intentionally private. Please do not share this github.
+### Special Thanks to:
+#### Emmet Houghton
+#### James Houghton
+#### Samantha Burak
+#### Max Liu
+#### Sam Wexler
 
