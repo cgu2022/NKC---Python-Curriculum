@@ -87,8 +87,50 @@ while counter1 <= 10:
     counter2 = 1
     counter1 += 1
 
+
+
 #######################################################################################
 # 5.8
+# Using nested while loops, print out the following:
+'''
+Hi!
+How are you?
+Good?
+Good?
+Good?
+How are you?
+Good?
+Good?
+Good?
+How are you?
+Good?
+Good?
+Good?
+Bye!
+'''
+# for a total of 10 times through.
+
+c = 0
+while c < 10:
+    print("Hi")
+    howcounter = 0
+    while howcounter < 3:
+        print("How are you?")
+        goodcounter = 0
+        while goodcounter < 3:
+            print("Good?")
+            goodcounter += 1
+        howcounter += 1
+    print("Bye!\n")
+    c += 1
+
+
+
+# DON'T DO THE BELOW:!
+
+'''
+#######################################################################################
+# 5.10
 # Make a while loop with a counter variable. If the counter variable equals 100 break
 # out of the loop. Use the break statement for this.
 
@@ -103,9 +145,10 @@ while counter < 1000:
 
 
 #######################################################################################
-# 5.9
+# 5.11
 # Make a string and use the length function to print out the length of the string
 
 string = "this is a cool string"
 length = len(string)
 print(length)
+'''

@@ -50,12 +50,42 @@ c = 0
 # for each iteration of the first while loop
 
 
+
+
 #######################################################################################
 # 5.8
-# Make a while loop that goes from 0 to 1000. If the counter variable equals 100, break
+# Using nested while loops, print out the following:
+'''
+Hi!
+How are you?
+Good?
+Good?
+Good?
+How are you?
+Good?
+Good?
+Good?
+How are you?
+Good?
+Good?
+Good?
+Bye!
+'''
+# for a total of 10 times through.
+
+
+# DON'T DO THE BELOW:!
+
+'''
+#######################################################################################
+# 5.10
+# Make a while loop with a counter variable. If the counter variable equals 100 break
 # out of the loop. Use the break statement for this.
 
 
+
 #######################################################################################
-# 5.9
+# 5.11
 # Make a string and use the length function to print out the length of the string
+
+'''
