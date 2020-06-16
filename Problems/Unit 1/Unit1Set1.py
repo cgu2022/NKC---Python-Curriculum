@@ -86,6 +86,7 @@ c = 3
 ######################################################################################
 # 1.13
 # Print these two variables together by casting and adding:
+# Hint: There are two ways of adding the variables
 
 a = 1 
 b = "45"

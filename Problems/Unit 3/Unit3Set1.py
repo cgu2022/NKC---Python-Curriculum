@@ -27,21 +27,34 @@
 
 #######################################################################################
 # 5.5
-# Use the input function to continually ask the user for a number and add that number
-# to the total. Each loop you should print out the current total. If the user enters
-# -1 the loop stops.
-
-
-#######################################################################################
-# 5.6
 # Make a while loop which has 3 variables and changes each one at a different rate. Stop
-# the while loop when a variable gets to 100.
+# the while loop when a variable gets to at least 100.
 
 a = 0
 b = 0
 c = 0
 
+while a < 100 and b < 100 and c < 100:
+    print("a: {} b: {} c: {}".format(a, b, c))
+    a += 1
+    b += 2
+    c += 3
+
  # STOP HERE
+
+ #######################################################################################
+# 5.6
+# Use the input function to continually ask the user for a number and add that number
+# to the total. Each loop you should print out the current total. If the user enters
+# -1 the loop stops.
+
+total = 0
+inp = int(input())
+while not inp == -1:
+	print("{} + {} = {}".format(total, inp, total+inp))
+	total = total + inp
+	inp = int(input())
+
 
 #######################################################################################
 # 5.7

@@ -46,7 +46,7 @@ while counter > 0:
 #######################################################################################
 # 5.5
 # Make a while loop which has 3 variables and changes each one at a different rate. Stop
-# the while loop when a variable gets to 100.
+# the while loop when a variable gets to at least 100.
 
 a = 0
 b = 0
