@@ -4,6 +4,7 @@
 # print your answer
 
 
+
 #######################################################################################
 # 3.2
 # using inequalities determine True or False whether 10 is less than or equal to 10
@@ -39,6 +40,7 @@
 
 
 
+
 #######################################################################################
 # 3.7
 # create a variable which holds False
@@ -52,20 +54,38 @@
 
 
 
+
 #######################################################################################
 # 3.9
 # create an if statement with a condition which will always be true and print something
+
 
 
 # Stop Here
 
 #######################################################################################
 # 3.10
-# use the input function to store a number in a variable
+# Make a program that uses the if-else control structure
 
+
+# Stop Here
 
 #######################################################################################
 # 3.11
+# Make a program that uses the if-elif-else control structure. Use at least one elif.
+
+
+
+# Stop Here
+
+#######################################################################################
+# 3.12
+# use the input function to store a number in a variable
+
+
+
+#######################################################################################
+# 3.13
 # Ask the user for a number. (This also means take in an input.)
 # Then, print out either "positive", "negative", or "neither"
 # if the number is +, -, or 0
@@ -77,14 +97,14 @@
 
 
 #######################################################################################
-# 3.12
-# modify your code from 3.11 to use elif and else statements
+# 3.14
+# modify your code from 3.11 to use elif and else statements (unless you already did)
 
 
 
 
 #######################################################################################
-# 3.13
+# 3.15
 # use the input function to get 2 numbers stored in 2 variables
 # print the sum of them
 
@@ -92,14 +112,13 @@
 # Wait here
 
 #######################################################################################
-# 3.14
+# 3.16
 # Import the random library (you only have to do it once!) and print out a random
 # number from 1 to 100
 
 
-
 #######################################################################################
-# 3.15 
+# 3.17 
 # Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
 # variable to 0.
 

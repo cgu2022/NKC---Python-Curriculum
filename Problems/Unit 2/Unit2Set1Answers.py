@@ -95,12 +95,42 @@ if True:
 
 #######################################################################################
 # 3.10
+# Make a program that uses the if-else control structure
+
+x = 2
+y = 4
+
+if x > y:
+    print("x > y")
+else:
+    print("x <= y")
+
+# Stop Here
+
+#######################################################################################
+# 3.11
+# Make a program that uses the if-elif-else control structure. Use at least one elif.
+
+x = 3
+y = 3
+
+if x > y:
+    print("x > y")
+elif x==y:
+    print("x==y")
+else:
+    print("None of the above")
+
+# Stop Here
+
+#######################################################################################
+# 3.12
 # use the input function to store a number in a variable
 
 num = int(input())
 
 #######################################################################################
-# 3.11
+# 3.13
 # Ask the user for a number. (This also means take in an input.)
 # Then, print out either "positive", "negative", or "neither"
 # if the number is +, -, or 0
@@ -119,8 +149,8 @@ if num == 0:
     print("neither")
 
 #######################################################################################
-# 3.12
-# modify your code from 3.11 to use elif and else statements
+# 3.14
+# modify your code from 3.11 to use elif and else statements (unless you already did)
 
 num = int(input("Enter Number:"))
 
@@ -134,7 +164,7 @@ else:
 
 
 #######################################################################################
-# 3.13
+# 3.15
 # use the input function to get 2 numbers stored in 2 variables
 # print the sum of them
 
@@ -147,7 +177,7 @@ print(num1 + num2)
 # Wait here
 
 #######################################################################################
-# 3.14
+# 3.16
 # Import the random library (you only have to do it once!) and print out a random
 # number from 1 to 100
 
@@ -156,7 +186,7 @@ rand = random.randint(1, 100)
 print(rand)
 
 #######################################################################################
-# 3.15 
+# 3.17 
 # Generate a random decimal between 0 and 1. If it is less than 0.5, then set the
 # variable to 0.
 
