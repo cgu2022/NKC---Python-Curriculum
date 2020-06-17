@@ -4,7 +4,7 @@ These are a set of mini-projects!
 
 #IMPORTANT:
 # Remember: use int() to convert a string into an integer
-# and use float() to convert a string with a decimal
+# and use float() to convert a string into a decimal
 
 #######################################################################################
 # 4.1
@@ -49,10 +49,8 @@ elif(n3 >= n2 and n3>=n1):
 #######################################################################################
 # 4.3
 # Write a program that takes in a grade and calculates if it is A, B, C, D, or F
-# Extra: Added plus and minuses. Fs do not need + or -.
+# Extra: Add plus and minuses. Fs do not need + or -.
 # Extra2: This program will support decimals.
-# Use round() to round the number. Although the function will round 1.5 down, 
-# for our purposes, round it up.
 
 grade = float(input("Enter a grade:"))
 decimal = grade - float(int(grade))
