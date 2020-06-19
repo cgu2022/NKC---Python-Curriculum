@@ -34,8 +34,8 @@ while not finished:
     if ans == "q":
         finished = True
         total = numOfCorrect + numOfIncorrect
-        print( "Number of Correct:", str(float(numOfCorrect / (total) * 100)) + "%", "(" + str(numOfCorrect) + "/" + str(total) + ")")
-        print( "Number of Incorrect:", str(float(numOfIncorrect / (total) * 100)) + "%", "(" + str(numOfIncorrect) + "/" + str(total) + ")")
+        print("Number of Correct:", str(float(numOfCorrect / (total) * 100)) + "%", "(" + str(numOfCorrect) + "/" + str(total) + ")")
+        print("Number of Incorrect:", str(float(numOfIncorrect / (total) * 100)) + "%", "(" + str(numOfIncorrect) + "/" + str(total) + ")")
     else:
         ans = int(ans)
         if ans == correctAns:
