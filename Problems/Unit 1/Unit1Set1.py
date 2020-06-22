@@ -44,7 +44,6 @@ string2 = "cat"
 # Use a print statement to print the variable print_this to the console.
 
 print_this = "Success! You printed a variable!"
-# Wait here
 
 #######################################################################################
 # 1.8

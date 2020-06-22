@@ -57,7 +57,6 @@ print("Hello!")
 print_this = "Success! You printed a variable!"
 print(print_this)
 
-# Wait here
 
 #######################################################################################
 # 1.8
