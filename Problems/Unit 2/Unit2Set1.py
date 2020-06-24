@@ -98,7 +98,7 @@
 
 #######################################################################################
 # 3.14
-# modify your code from 3.11 to use elif and else statements (unless you already did)
+# modify your code from 3.13 to use elif and else statements (unless you already did)
 
 
 
