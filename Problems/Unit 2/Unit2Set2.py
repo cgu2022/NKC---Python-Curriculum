@@ -37,24 +37,24 @@ thing = "Hello"
 
 
 #######################################################################################
-# 4.3.5
+# 4.4
 # You are going to make a Magic 8 ball. You ask it a question, and it gives you an answer
 # Write a program that takes in a question, and replies with an answer.
 # You must have at least 5 responses, generated randomly (hint: use the random function)
 
 # ex: User: Should I listen to the lecture or no?
 #    Output: Yes
-
+'''
 import random
 
 x = input("Enter Question: ")
 number = random.randint(1,5) # number will equal a random number between 1-5
-
+'''
 
 
    
 #######################################################################################
-# 4.4
+# 4.5
 # A straight in poker (a card game) is defined when 5 cards are aligned consecutively in 
 # ascending order (0, 1, 2, 3, 4) but not (8, 9, 10, 0, 1), nor (0, 2, 1, 3, 4).
 # Cards are from 0-10
@@ -67,7 +67,7 @@ number = random.randint(1,5) # number will equal a random number between 1-5
 
 
 #######################################################################################
-# 4.5
+# 4.6
 # Write a program that prompts the user for an operation
 # (addition, subtraction, multiplication, or division) for (0-3)
 #     0          1              2               3
